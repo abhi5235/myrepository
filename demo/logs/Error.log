@@ -1,0 +1,70 @@
+2022-10-31 17:54:47 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.4.1 on DELL with PID 14452 (C:\Users\Abhishek Pal\Documents\workspace-springboot-projects\demo\target\classes started by Abhishek Pal in C:\Users\Abhishek Pal\Documents\workspace-springboot-projects\demo)
+2022-10-31 17:54:47 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-31 17:54:48 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-31 17:54:48 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-31 17:54:50 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-10-31 17:54:50 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-31 17:54:50 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-31 17:54:50 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-31 17:54:50 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2161 ms
+2022-10-31 17:54:50 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-10-31 17:54:51 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-31 17:54:51 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.046 seconds (JVM running for 7.065)
+2022-10-31 17:54:57 [http-nio-8082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-31 17:54:57 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-31 17:54:57 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-10-31 17:54:57 [http-nio-8082-exec-1] INFO  com.example.demo.aspect.LoggingAspect - before proceeding part of around advice
+2022-10-31 17:54:57 [http-nio-8082-exec-1] INFO  com.example.demo.aspect.LoggingAspect - going inside login method
+2022-10-31 17:54:57 [http-nio-8082-exec-1] INFO  com.example.demo.aspect.LoggingAspect - login method is completed without any exception
+2022-10-31 17:54:57 [http-nio-8082-exec-1] INFO  com.example.demo.aspect.LoggingAspect - welcome Abhishek
+2022-10-31 17:54:57 [http-nio-8082-exec-1] INFO  com.example.demo.aspect.LoggingAspect - String com.example.demo.MyController.loginUser(String,String)
+2022-10-31 17:54:57 [http-nio-8082-exec-1] INFO  com.example.demo.aspect.LoggingAspect - login method is completed
+2022-10-31 17:54:57 [http-nio-8082-exec-1] INFO  com.example.demo.aspect.LoggingAspect - After proceeding part of around advice
+2022-10-31 17:56:04 [http-nio-8082-exec-5] INFO  com.example.demo.aspect.LoggingAspect - before proceeding part of around advice
+2022-10-31 17:56:04 [http-nio-8082-exec-5] INFO  com.example.demo.aspect.LoggingAspect - going inside login method
+2022-10-31 17:56:04 [http-nio-8082-exec-5] INFO  com.example.demo.aspect.LoggingAspect - login method is completed without any exception
+2022-10-31 17:56:04 [http-nio-8082-exec-5] INFO  com.example.demo.aspect.LoggingAspect - jack you are not allowed to login
+2022-10-31 17:56:04 [http-nio-8082-exec-5] INFO  com.example.demo.aspect.LoggingAspect - String com.example.demo.MyController.loginUser(String,String)
+2022-10-31 17:56:04 [http-nio-8082-exec-5] INFO  com.example.demo.aspect.LoggingAspect - login method is completed
+2022-10-31 17:56:04 [http-nio-8082-exec-5] INFO  com.example.demo.aspect.LoggingAspect - After proceeding part of around advice
+2022-10-31 17:57:11 [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-31 17:57:11 [Thread-5] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-31 17:57:11 [Thread-5] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-31 17:57:11 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.4.1 on DELL with PID 14452 (C:\Users\Abhishek Pal\Documents\workspace-springboot-projects\demo\target\classes started by Abhishek Pal in C:\Users\Abhishek Pal\Documents\workspace-springboot-projects\demo)
+2022-10-31 17:57:11 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-31 17:57:12 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-10-31 17:57:12 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-31 17:57:12 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-31 17:57:12 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-31 17:57:12 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 644 ms
+2022-10-31 17:57:12 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-10-31 17:57:12 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-31 17:57:12 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.104 seconds (JVM running for 148.872)
+2022-10-31 17:57:12 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-10-31 17:57:20 [http-nio-8082-exec-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-31 17:57:20 [http-nio-8082-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-31 17:57:20 [http-nio-8082-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-10-31 17:57:20 [http-nio-8082-exec-4] INFO  com.example.demo.aspect.LoggingAspect - before proceeding part of around advice
+2022-10-31 17:57:20 [http-nio-8082-exec-4] INFO  com.example.demo.aspect.LoggingAspect - going inside login method
+2022-10-31 17:57:20 [http-nio-8082-exec-4] INFO  com.example.demo.aspect.LoggingAspect - login method is completed without any exception
+2022-10-31 17:57:20 [http-nio-8082-exec-4] INFO  com.example.demo.aspect.LoggingAspect - jack you are not allowed to login
+2022-10-31 17:57:20 [http-nio-8082-exec-4] INFO  com.example.demo.aspect.LoggingAspect - String com.example.demo.MyController.loginUser(String,String)
+2022-10-31 17:57:20 [http-nio-8082-exec-4] INFO  com.example.demo.aspect.LoggingAspect - login method is completed
+2022-10-31 17:57:20 [http-nio-8082-exec-4] INFO  com.example.demo.aspect.LoggingAspect - After proceeding part of around advice
+2022-10-31 17:58:00 [RMI TCP Connection(12)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-10-31 17:58:00 [RMI TCP Connection(12)-127.0.0.1] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-31 17:58:00 [RMI TCP Connection(12)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-01 14:19:57 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.4.1 on DELL with PID 10228 (C:\Users\Abhishek Pal\Documents\workspace-springboot-projects\demo\target\classes started by Abhishek Pal in C:\Users\Abhishek Pal\Documents\workspace-springboot-projects\demo)
+2022-11-01 14:19:57 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-01 14:19:57 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-01 14:19:57 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-01 14:20:00 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2022-11-01 14:20:00 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-01 14:20:00 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-01 14:20:00 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-01 14:20:00 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2540 ms
+2022-11-01 14:20:01 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-11-01 14:20:01 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2022-11-01 14:20:01 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.546 seconds (JVM running for 8.656)
+2022-11-01 14:44:56 [RMI TCP Connection(30)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-11-01 14:44:57 [RMI TCP Connection(30)-127.0.0.1] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
